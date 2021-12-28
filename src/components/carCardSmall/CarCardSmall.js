@@ -2,9 +2,13 @@ import React from 'react'
 
 import './CarCardSmallStyle.css'
 
+//For navigation purpose (need to install first)
+import { Link } from 'react-router-dom';
+
+
 const CarCardSmall = props => {
     return (
-        <div className="car-card-small">
+        <Link to={"/cars/" + props.id} className="car-card-small"> {/* Previosly it was div but to keep styling and Link need to switch className in Link */}
             <div className="car-card-small-info">
                 <p className="car-card-small-title">{props.carName}</p>
 
@@ -28,7 +32,7 @@ const CarCardSmall = props => {
             <div className="car-card-small-galery">
                 <img src={props.img} alt="" />
             </div>
-        </div>
+        </Link>
     )
 }
 

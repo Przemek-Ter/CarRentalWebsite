@@ -2,6 +2,9 @@ import React from 'react'
 
 import './CarCardBigStyle.css'
 
+//For navigation purpose (need to install first)
+import { Link } from 'react-router-dom';
+
 //Components
 import Button from '../button/Button'
 
@@ -28,7 +31,7 @@ const CarCardBig = props => {
                 {/* Transmition */}
                 <div className="car-card-big-description">
                     <i class="fas fa-level-up-alt"></i>
-                    <p>{props.transmition}</p>
+                    <p>{props.transmission}</p>
                 </div>
                 {/* Max Speed */}
                 <div className="car-card-big-description">
@@ -36,16 +39,18 @@ const CarCardBig = props => {
                     <p>{props.maxSpeed}</p>
                 </div>
                 {/* Rent Button */}
-                <div className="car-card-big-button-space">
-                    <Button text={props.price} />
-                </div>
+                <Link to={props.id} className="link"> {/* Styling for this is in NavStyle.css */}
+                    <div className="car-card-big-button-space">
+                        <Button text={props.price} />
+                    </div>
+                </Link>
 
             </div>
 
             <div className="car-card-big-galery">
                 <img src={props.img} alt="" />
             </div>
-        </div>
+        </div >
     )
 }
 

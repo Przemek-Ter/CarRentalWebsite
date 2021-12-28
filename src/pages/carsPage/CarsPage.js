@@ -5,17 +5,52 @@ import './CarsPageStyle.css'
 import CarCardBig from '../../components/carCardBig/CarCardBig'
 
 //Car Images
-import AmgA45 from '../../images/amg-a45.png'
-import BmwZ4 from '../../images/bmw-z4.png'
-import Velar from '../../images/range-rover-velar.png'
+import AmgA45Image from '../../images/amg-a45.png'
+import BmwZ4Image from '../../images/bmw-z4.png'
+import VelarImage from '../../images/range-rover-velar.png'
+
+//Data
+import AmgA45Data from '../../util/carsInfo/AmgA45.json'
+import BmwZ4Data from '../../util/carsInfo/BmwZ4.json'
+import VelarData from '../../util/carsInfo/Velar.json'
 
 
 function CarsPage() {
     return (
         <div className="cars-page-wrapper" >
-            <CarCardBig carName="Mercedes AMG A45" power="381 KM" petrol="Benzyna" acceleration="4,1s do 100km/h" transmition="Automatic" maxSpeed="250 km/h" price="From 699 PLN" img={AmgA45} />
-            <CarCardBig carName="BMW Z4" power="280 KM" petrol="Benzyna" acceleration="5,5s do 100km/h" transmition="Automatic" maxSpeed="220 km/h" price="From 499 PLN" img={BmwZ4} />
-            <CarCardBig carName="Range Rover Velar" power="280 KM" petrol="Diesel" acceleration="7,0s do 100km/h" transmition="Automatic" maxSpeed="200 km/h" price="From 1099 PLN" img={Velar} />
+            <CarCardBig
+                id={AmgA45Data.id}
+                carName={AmgA45Data.carName}
+                power={AmgA45Data.power}
+                petrol={AmgA45Data.petrol}
+                acceleration={AmgA45Data.acceleration}
+                transmission={AmgA45Data.transmission}
+                maxSpeed={AmgA45Data.maxSpeed}
+                price={AmgA45Data.price}
+                img={AmgA45Image}
+            />
+            <CarCardBig
+                id={BmwZ4Data.id}
+                carName={BmwZ4Data.carName}
+                power={BmwZ4Data.power}
+                petrol={BmwZ4Data.petrol}
+                acceleration={BmwZ4Data.acceleration}
+                transmission={BmwZ4Data.transmission}
+                maxSpeed={BmwZ4Data.maxSpeed}
+                price={BmwZ4Data.price}
+                img={BmwZ4Image}
+            />
+            <CarCardBig
+                id={VelarData.id}
+                carName={VelarData.carName}
+                power={VelarData.power}
+                petrol={VelarData.petrol}
+                acceleration={VelarData.acceleration}
+                transmission={VelarData.transmission}
+                maxSpeed={VelarData.maxSpeed}
+                price={VelarData.price}
+                img={VelarImage}
+            />
         </div>
     );
 }

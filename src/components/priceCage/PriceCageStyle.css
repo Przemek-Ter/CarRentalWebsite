@@ -1,0 +1,33 @@
+.price-cage {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0.2rem;
+    border-radius: 0.5rem;
+    background-color: #3d3939;
+    color: var(--lighText);
+    overflow: hidden;
+    height: 9rem;
+    width: 100%;
+    min-width: 7rem;
+    box-shadow: 0rem 0rem 1rem rgb(24, 24, 24);
+    transition: 0.3s ease-in-out;
+}
+
+.price-cage:hover {
+    box-shadow: 0.2rem 0.5rem 0.7rem rgb(12, 12, 12);
+    margin-top: 0;
+}
+
+.price-cage-top, .price-cage-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.price-cage-top {
+    background-color: #312f2f;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}

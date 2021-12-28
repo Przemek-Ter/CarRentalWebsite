@@ -1,0 +1,110 @@
+.car-page-component-wrapper {
+    width: 80%;
+    max-width: 80rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Image Section */
+.car-page-image-and-data-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    width: 100%;
+    height: 35rem;
+}
+
+.car-page-image-section {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 1rem;
+    overflow: hidden;
+}
+
+/* Data Section */
+.car-page-car-data-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    margin: 1rem;
+    color: var(--lighText);
+}
+
+.car-page-car-data-name {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.car-page-car-data-table {
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.car-page-car-data-table-titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.car-page-car-data-table-titles p {
+    margin-top: 1rem;
+}
+
+.car-page-car-data-table-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.car-page-car-data-table-data p {
+    margin-top: 1rem;
+}
+
+/* Prices Section */
+.car-page-prices-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    width: 100%;
+    height: 11rem;
+}
+
+/* Description Section */
+.car-page-description-section {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: #3d3939;
+    border-radius: 0.5rem;
+    width: 100%;
+    min-height: 14rem;
+    color: var(--lighText);
+}
+
+.car-page-description-title {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.car-page-description-text {
+    line-height: 1.5rem;
+    padding: 1rem 0;
+}
+
+.car-page-description-addon {
+    font-size: 0.8rem;
+    filter: brightness(60%);
+}
