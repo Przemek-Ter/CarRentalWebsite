@@ -75,6 +75,26 @@
     transform: scale(1.1);
 }
 
+/* Contsct Section */
+
+.footer-contact {
+    display: flex;
+    color: rgb(129, 129, 129);
+    filter: brightness(60%);
+}
+
+.footer-contact-phone, .footer-contact-email {
+    display: flex;
+    align-items: flex-end;
+    margin: 0 1rem;
+}
+
+.footer-contact-title {
+    margin: 0 0.5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
 /* Legal stuff */
 
 .footer-wraper p {

@@ -5,7 +5,6 @@ import React from 'react'
 import '../carPage/CarPageComponentStyle.css'
 
 //Components
-import ImageSlider from '../imageSlider/ImageSlider'
 import Slider from '../slider/Slider'
 import PriceCage from '../priceCage/PriceCage'
 
@@ -56,12 +55,6 @@ const CarPageComponent = props => {
                 <p className="car-page-description-addon" >* Wynajem na mniej niż 3 dni liczony jest w dni Pon - Pt</p>
                 <p className="car-page-description-addon" >* Weekend to czas od Pt 18:00 do Nd 18:00</p>
                 <p className="car-page-description-addon" >* Wynajem na więcej niż jeden miesiąc - stawka indywidualna</p>
-
-                {/* <div className="car-page-prices-section-info">
-                    <p>* Wynajem na mniej niż 3 dni liczony jest w dni Pon - Pt</p>
-                    <p>* Weekend to czas od Pt 18:00 do Nd 18:00</p>
-                    <p>* Wynajem na więcej niż jeden miesiąc - stawka indywidualna</p>
-                </div> */}
             </div>
         </div>
     )
