@@ -7,7 +7,7 @@ import Footer from './components/footer/Footer'
 import HomePage from './pages/homePage/Home';
 import CarsPage from './pages/carsPage/CarsPage';
 import AboutPage from './pages/aboutPage/AboutPage';
-import StatutePage from './pages/ststutePage/StatutePage';
+import StatutePage from './pages/statutePage/StatutePage';
 import ContactUsPage from './pages/contactUsPage/ContactUsPage';
 import CarOnePage from './pages/SecyficCarPages/CarOnePage';
 import CarTwoPage from './pages/SecyficCarPages/CarTwoPage';
@@ -15,6 +15,7 @@ import CarThreePage from './pages/SecyficCarPages/CarThreePage';
 
 //For navigation purpose (need to install first)
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ScrollToTop from './components/scrollToTop/ScrollToTop';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         {/* Navbar */}
         <Nav />
         {/* All the pages */}
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/cars" element={<CarsPage />} />

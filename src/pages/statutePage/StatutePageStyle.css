@@ -1,0 +1,26 @@
+.statute-page-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 3rem auto;
+    color: var(--lighText);
+}
+
+.statute-page-wrapper p {
+    margin: 0.7rem 0;
+}
+
+.statute-page-wrapper a {
+    margin: auto;
+    margin-top: 3rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--lighText);
+}
+
+.statute-page-wrapper a:hover {
+    filter: brightness(150%);
+    border-bottom: 1px solid var(--lighText);
+}
+
