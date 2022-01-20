@@ -6,12 +6,14 @@ import Footer from './components/footer/Footer'
 //Pages
 import HomePage from './pages/homePage/Home';
 import CarsPage from './pages/carsPage/CarsPage';
-import AboutPage from './pages/aboutPage/AboutPage';
-import StatutePage from './pages/statutePage/StatutePage';
-import ContactUsPage from './pages/contactUsPage/ContactUsPage';
 import CarOnePage from './pages/SecyficCarPages/CarOnePage';
 import CarTwoPage from './pages/SecyficCarPages/CarTwoPage';
 import CarThreePage from './pages/SecyficCarPages/CarThreePage';
+import AboutPage from './pages/aboutPage/AboutPage';
+import StatutePage from './pages/statutePage/StatutePage';
+import ContactUsPage from './pages/contactUsPage/ContactUsPage';
+import QuestionFormPage from './pages/formPages/questionForm/QuestionFormPage';
+import ReservationFormPage from './pages/formPages/reservationForm/ReservationFormPage';
 
 //For navigation purpose (need to install first)
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -31,6 +33,8 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/statute" element={<StatutePage />} />
           <Route path="/contact-us" element={<ContactUsPage />} />
+          <Route path="/contact-us/question-form" element={<QuestionFormPage />} />
+          <Route path="/contact-us/reservation-form" element={<ReservationFormPage />} />
           <Route path="/cars/amg-a45" element={<CarOnePage />} />
           <Route path="/cars/bmw-z4" element={<CarTwoPage />} />
           <Route path="/cars/range-rover-velar" element={<CarThreePage />} />

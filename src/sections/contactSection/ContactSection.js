@@ -4,6 +4,7 @@ import './ContactSectionStyle.css'
 
 //Components
 import Button from '../../components/button/Button'
+import { Link } from 'react-router-dom'
 
 
 function ContactSection() {
@@ -15,8 +16,12 @@ function ContactSection() {
                     <p className="email-address">kontakt@luocars.pl</p>
                 </div>
                 <div className="buttons">
-                    <Button text="Zadaj pytanie" />
-                    <Button text="Zarezerwuj samochód" />
+                    <Link to='/contact-us/question-form' className="link"> {/* Styling for this is in NavStyle.css */}
+                        <Button text="Zadaj nam pytanie" />
+                    </Link>
+                    <Link to='/contact-us/reservation-form' className="link"> {/* Styling for this is in NavStyle.css */}
+                        <Button text="Wynajmij Samochód" />
+                    </Link>
                 </div>
             </div>
         </div>

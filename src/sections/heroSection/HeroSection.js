@@ -7,14 +7,14 @@ import './HeroSectionStyle.css'
 import AnimatedText from '../../components/animatedText/AnimatedText';
 
 //Video for the background
-import AmgA45 from "../../videos/amg-a45.mp4"
+import AmgA45Vid from "../../videos/amg-a45.mp4"
 
 function HeroSection() {
     return (
         <div className="hero-section">
             <div className="hero-background">
                 <video autoPlay loop muted>
-                    <source src={AmgA45} type='video/mp4' />
+                    <source src={AmgA45Vid} type='video/mp4' />
                 </video>
             </div>
             <div className="hero-teksts">
