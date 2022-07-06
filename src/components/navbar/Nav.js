@@ -35,19 +35,19 @@ function Nav() {
             {(toggleMenu || screenWidth > 768) && (
                 <ul className="nav-links">
                     <Link to='/' className="link">
-                        <li onClick={toggleNav}>Home</li>
+                        <li onClick={toggleNav}>Strona Główna</li>
                     </Link>
                     <Link to='/cars' className="link">
-                        <li onClick={toggleNav}>Cars/Prices</li>
+                        <li onClick={toggleNav}>Samochody / Ceny</li>
                     </Link>
                     <Link to='/about' className="link">
-                        <li onClick={toggleNav}>About Us</li>
+                        <li onClick={toggleNav}>O Nas</li>
                     </Link>
                     <Link to='/statute' className="link">
-                        <li onClick={toggleNav}>Statute</li>
+                        <li onClick={toggleNav}>Regulamin</li>
                     </Link>
                     <Link to='/contact-us' className="link">
-                        <li onClick={toggleNav}>Contact Us</li>
+                        <li onClick={toggleNav}>Kontakt</li>
                     </Link>
                 </ul>
             )}

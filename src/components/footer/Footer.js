@@ -26,19 +26,19 @@ function Footer() {
                 <div className="footer-nav">
                     <ul className="footer-links">
                         <Link to='/' className="footer-link">
-                            <li>Home</li>
+                            <li>Strona Główna</li>
                         </Link>
                         <Link to='/cars' className="footer-link">
-                            <li>Cars/Prices</li>
+                            <li>Samochody / Ceny</li>
                         </Link>
                         <Link to='/about' className="footer-link">
-                            <li>About Us</li>
+                            <li>O Nas</li>
                         </Link>
                         <Link to='/statute' className="footer-link">
-                            <li>Statute</li>
+                            <li>Regulamin</li>
                         </Link>
                         <Link to='/contact-us' className="footer-link">
-                            <li>Contact Us</li>
+                            <li>Kontakt</li>
                         </Link>
                     </ul>
                 </div>

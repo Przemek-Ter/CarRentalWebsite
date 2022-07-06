@@ -1,0 +1,63 @@
+.reservation-form-container {
+    width: 35%;
+    min-height: 91vh;
+    margin: auto;
+    padding: 3rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.reservation-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--lighText);
+}
+
+.reservation-form-label {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.reservation-text-input {
+    width: 100%;
+    height: 3rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.8rem;
+}
+
+.reservation-text-input-big {
+    width: 100%;
+    height: 10rem;
+    padding: 0.7rem;
+    font-size: 1rem;
+    border-radius: 0.8rem;
+}
+
+.reservation-submit-button {
+    background-color: rgb(62, 128, 190);
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0.2rem 0.5rem 0.7rem rgb(24, 24, 24);
+    padding: 1rem 1.5rem;
+    margin: auto;
+    margin-top: 2rem;
+    transition: 0.3s ease-in-out;
+    color: var(--darkText);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.reservation-submit-button:hover {
+    color: var(--lighText);
+    transform: scale(1.1);
+    background-color: rgb(27, 52, 78);
+    box-shadow: 0.2rem 0.5rem 1rem rgb(0, 0, 0);
+}

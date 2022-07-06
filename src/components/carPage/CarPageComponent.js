@@ -4,9 +4,13 @@ import React from 'react'
 //Style file
 import '../carPage/CarPageComponentStyle.css'
 
+//For navigation
+import { Link } from 'react-router-dom';
+
 //Components
 import Slider from '../slider/Slider'
 import PriceCage from '../priceCage/PriceCage'
+import Button from '../button/Button'
 
 const CarPageComponent = props => {
     return (
@@ -18,24 +22,33 @@ const CarPageComponent = props => {
                 <div className="car-page-car-data-section">
                     <h1 className="car-page-car-data-name" >{props.carName}</h1>
                     <div className="car-page-car-data-table">
-                        <div className="car-page-car-data-table-titles">
-                            <p>Moc</p>
-                            <p>Silnik</p>
-                            <p>Paliwo</p>
-                            <p>Skrzynia</p>
-                            <p>Napęd</p>
-                            <p>Przyspieszenie</p>
-                            <p>Prędkość Max</p>
+                        <div className="car-page-car-data-table-info">
+                            <div className="car-page-car-data-table-titles">
+                                <p>Moc</p>
+                                <p>Silnik</p>
+                                <p>Paliwo</p>
+                                <p>Skrzynia</p>
+                                <p>Napęd</p>
+                                <p>Przyspieszenie</p>
+                                <p>Prędkość Max</p>
+                            </div>
+                            <div className="car-page-car-data-table-data">
+                                <p>{props.power}</p>
+                                <p>{props.engine}</p>
+                                <p>{props.petrol}</p>
+                                <p>{props.transmission}</p>
+                                <p>{props.drive}</p>
+                                <p>{props.acceleration}</p>
+                                <p>{props.maxSpeed}</p>
+                            </div>
                         </div>
-                        <div className="car-page-car-data-table-data">
-                            <p>{props.power}</p>
-                            <p>{props.engine}</p>
-                            <p>{props.petrol}</p>
-                            <p>{props.transmission}</p>
-                            <p>{props.drive}</p>
-                            <p>{props.acceleration}</p>
-                            <p>{props.maxSpeed}</p>
-                        </div>
+                    </div>
+                    <div className="car-page-car-data-rent">
+                        <p className="car-page-car-data-rent-phone" >+48 508 804 466 / 502 544 563</p>
+                        <Link to='/contact-us/reservation-form' className="link"> {/* Styling for this is in NavStyle.css */}
+                            <Button text="Wynajmij online" />
+                        </Link>
+
                     </div>
                 </div>
             </div>
@@ -46,6 +59,7 @@ const CarPageComponent = props => {
                 <PriceCage topText="Weekend" bottomText={props.price4} />
                 <PriceCage topText="7 dni" bottomText={props.price5} />
                 <PriceCage topText="30 dni" bottomText={props.price6} />
+                <PriceCage topText="Kaucja" bottomText={props.deposit} />
             </div>
             <div className="car-page-description-section">
                 <p className="car-page-description-title">{props.descriptionTitle}</p>

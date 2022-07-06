@@ -1,5 +1,6 @@
 .about-page {
     padding-top: 3rem;
+    min-height: 91vh;
     color: var(--lighText);
 }
 
@@ -53,7 +54,8 @@
     text-align: center;
 }
 
-.about-page-availability-table th, .about-page-availability-table td {
+.about-page-availability-table th,
+.about-page-availability-table td {
     padding: 1rem;
 }
 

@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     width: 70%;
-    min-height: 60vh;
+    min-height: 91vh;
     margin: 3rem auto;
     color: var(--lighText);
 }
@@ -27,4 +27,3 @@
     filter: brightness(150%);
     border-bottom: 1px solid var(--lighText);
 }
-

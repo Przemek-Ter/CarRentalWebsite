@@ -24,7 +24,7 @@
 
 .footer-social a {
     text-decoration: none;
-    color: var(--darkText);
+    color: rgb(52, 52, 52);
 }
 
 .footer-social i {
@@ -69,7 +69,7 @@
     text-decoration: none;
     list-style: none;
     font-weight: bold;
-    color: var(--darkText);
+    color: rgb(52, 52, 52);
     transition: 0.2s ease-in-out;
 }
 
@@ -86,7 +86,8 @@
     filter: brightness(60%);
 }
 
-.footer-contact-phone, .footer-contact-email {
+.footer-contact-phone,
+.footer-contact-email {
     display: flex;
     align-items: flex-end;
     margin: 0 1rem;
