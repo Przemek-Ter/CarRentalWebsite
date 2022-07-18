@@ -5,11 +5,9 @@ import React from 'react'
 import CarPageComponent from '../../components/carPage/CarPageComponent';
 
 //Car Images
-import BmwZ4Image from '../../images/bmw-z4.png'
 import AudiA4Image from '../../images/audi-a4.jpeg'
 
 //Data
-import BmwZ4Data from '../../util/carsInfo/BmwZ4.json'
 import AudiA4Data from '../../util/carsInfo/AudiA4.json'
 
 
