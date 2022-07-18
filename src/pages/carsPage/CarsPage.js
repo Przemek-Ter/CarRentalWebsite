@@ -5,12 +5,14 @@ import './CarsPageStyle.css'
 import CarCardBig from '../../components/carCardBig/CarCardBig'
 
 //Car Images
-import AmgA45Image from '../../images/amg-a45.png'
 import BmwZ4Image from '../../images/bmw-z4.png'
 import VelarImage from '../../images/range-rover-velar.png'
+import MustangImage from '../../images/ford-mustang-gt.jpeg'
+import AudiImage from '../../images/audi-a4.jpeg'
 
 //Data
-import AmgA45Data from '../../util/carsInfo/AmgA45.json'
+import MustangGTData from '../../util/carsInfo/MustangGT.json'
+import AudiA4Data from '../../util/carsInfo/AudiA4.json'
 import BmwZ4Data from '../../util/carsInfo/BmwZ4.json'
 import VelarData from '../../util/carsInfo/Velar.json'
 
@@ -19,15 +21,15 @@ function CarsPage() {
     return (
         <div className="cars-page-wrapper" >
             <CarCardBig
-                id={AmgA45Data.id}
-                carName={AmgA45Data.carName}
-                power={AmgA45Data.power}
-                petrol={AmgA45Data.petrol}
-                acceleration={AmgA45Data.acceleration}
-                transmission={AmgA45Data.transmission}
-                maxSpeed={AmgA45Data.maxSpeed}
-                price={AmgA45Data.price}
-                img={AmgA45Image}
+                id={MustangGTData.id}
+                carName={MustangGTData.carName}
+                power={MustangGTData.power}
+                petrol={MustangGTData.petrol}
+                acceleration={MustangGTData.acceleration}
+                transmission={MustangGTData.transmission}
+                maxSpeed={MustangGTData.maxSpeed}
+                price={MustangGTData.price}
+                img={MustangImage}
             />
             <CarCardBig
                 id={BmwZ4Data.id}
@@ -50,6 +52,17 @@ function CarsPage() {
                 maxSpeed={VelarData.maxSpeed}
                 price={VelarData.price}
                 img={VelarImage}
+            />
+            <CarCardBig
+                id={AudiA4Data.id}
+                carName={AudiA4Data.carName}
+                power={AudiA4Data.power}
+                petrol={AudiA4Data.petrol}
+                acceleration={AudiA4Data.acceleration}
+                transmission={AudiA4Data.transmission}
+                maxSpeed={AudiA4Data.maxSpeed}
+                price={AudiA4Data.price}
+                img={AudiImage}
             />
         </div>
     );

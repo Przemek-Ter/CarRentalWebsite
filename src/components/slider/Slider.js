@@ -63,6 +63,48 @@ const VelarPhotoList = [
         image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-6.jpeg'}`,
     },
 ]
+//Not correct
+const MustangPhotoList = [
+    {
+        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-1.jpeg'}`,
+    },
+    {
+        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-2.jpeg'}`,
+    },
+    {
+        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-3.jpeg'}`,
+    },
+    {
+        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-4.jpeg'}`,
+    },
+    {
+        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-5.jpeg'}`,
+    },
+    {
+        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-6.jpeg'}`,
+    },
+]
+//Not Correct
+const AudiPhotoList = [
+    {
+        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-1.jpeg'}`,
+    },
+    {
+        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-2.jpeg'}`,
+    },
+    {
+        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-3.jpeg'}`,
+    },
+    {
+        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-4.jpeg'}`,
+    },
+    {
+        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-5.jpeg'}`,
+    },
+    {
+        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-6.jpeg'}`,
+    },
+]
 
 //Those Photos should be in this resolution 1079 × 720
 
@@ -76,6 +118,10 @@ const Slider = props => {
         slides = BmwZ4PhotoList.slice();
     } else if (props.id === "range-rover-velar") {
         slides = VelarPhotoList.slice();
+    } else if (props.id === "mustang-gt") {
+        slides = MustangPhotoList.slice();
+    } else if (props.id === "audi-a4") {
+        slides = AudiPhotoList.slice();
     }
 
     const captionStyle = {

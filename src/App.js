@@ -9,6 +9,7 @@ import CarsPage from './pages/carsPage/CarsPage';
 import CarOnePage from './pages/SecyficCarPages/CarOnePage';
 import CarTwoPage from './pages/SecyficCarPages/CarTwoPage';
 import CarThreePage from './pages/SecyficCarPages/CarThreePage';
+import CarFourPage from './pages/SecyficCarPages/CarFourPage';
 import AboutPage from './pages/aboutPage/AboutPage';
 import StatutePage from './pages/statutePage/StatutePage';
 import ContactUsPage from './pages/contactUsPage/ContactUsPage';
@@ -35,9 +36,10 @@ function App() {
           <Route path="/contact-us" element={<ContactUsPage />} />
           <Route path="/contact-us/question-form" element={<QuestionFormPage />} />
           <Route path="/contact-us/reservation-form" element={<ReservationFormPage />} />
-          <Route path="/cars/amg-a45" element={<CarOnePage />} />
+          <Route path="/cars/mustang-gt" element={<CarOnePage />} />
           <Route path="/cars/bmw-z4" element={<CarTwoPage />} />
           <Route path="/cars/range-rover-velar" element={<CarThreePage />} />
+          <Route path="/cars/audi-a4" element={<CarFourPage />} />
 
         </Routes>
         {/* Footer */}

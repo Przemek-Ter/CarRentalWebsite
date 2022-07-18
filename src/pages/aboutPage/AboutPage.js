@@ -11,10 +11,10 @@ function AboutPage() {
         <div className="about-page" >
             <div className="about-page-wrapper">
                 <div className="about-page-short-info">
-                    <p>Działamy jako profesjonalna wypożyczalnia samochodów i motocykli na terenie Warszawy. Jednak na życzenie klienta, dostarczymy również pojazd w pozostałych częściach kraju. Co nas wyróżnia? Przede wszystkim duża flota samochodów najwyższej jakości we wszystkim klasach – premium, luksusowe, sportowe, czy miejskie. Dostosowujemy się do klientów indywidualnych oraz firm.</p>
+                    <p>Jetseśmy profesjonalną wypożyczalnią samochodów sportowych i luksusowych.Działamy na terenie Trójmiasta i okolic. Jednak na życzenie dostarczymy pojazd w pozostałych częściach kraju. Czym rónimy się od konkuręcji? Indywidualnym podejściem do każdego klienta, jakością obsługi jak i dospępem do ciekawych samochodów. Obsługujemy klientów indywidualnych jak i firmy. Zapewniamy bezpieczeństwo i jasne zasady wynajmu.</p>
                 </div>
                 <div className="about-page-availability">
-                    <p className="about-page-availability-table-title">Jesteśmy dostępni pod telefonem</p>
+                    <p className="about-page-availability-table-title">Jesteśmy otwarci</p>
                     <table className="about-page-availability-table" >
                         <thead>
                             <tr>
