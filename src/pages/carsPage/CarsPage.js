@@ -53,7 +53,7 @@ function CarsPage() {
                 price={VelarData.price}
                 img={VelarImage}
             />
-            <CarCardBig
+            {/* <CarCardBig
                 id={AudiA4Data.id}
                 carName={AudiA4Data.carName}
                 power={AudiA4Data.power}
@@ -63,7 +63,7 @@ function CarsPage() {
                 maxSpeed={AudiA4Data.maxSpeed}
                 price={AudiA4Data.price}
                 img={AudiImage}
-            />
+            /> */}
         </div>
     );
 }

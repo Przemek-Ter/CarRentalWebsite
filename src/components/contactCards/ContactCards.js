@@ -20,7 +20,7 @@ function ContactCards() {
                     <div className="contact-card-left-phone">
                         <i class="fas fa-mobile-alt"></i>
                     </div>
-                    <p className="contact-card-text">+48 508 804 466 / 502 544 563</p>
+                    <p className="contact-card-text">+48 570 072 336</p>
                 </div>
                 <div className="contact-card-right">
                     <div className="contact-card-right-email">

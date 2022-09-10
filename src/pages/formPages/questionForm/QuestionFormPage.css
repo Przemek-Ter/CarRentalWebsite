@@ -1,6 +1,6 @@
 .form-container {
     width: 35%;
-    height: 91vh;
+    min-height: 91vh;
     margin: auto;
     display: flex;
     align-items: center;
@@ -44,6 +44,7 @@
     padding: 1rem 1.5rem;
     margin: auto;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     transition: 0.3s ease-in-out;
     color: var(--darkText);
     cursor: pointer;
@@ -59,4 +60,8 @@
     transform: scale(1.1);
     background-color: rgb(27, 52, 78);
     box-shadow: 0.2rem 0.5rem 1rem rgb(0, 0, 0);
+}
+
+.invisible {
+    display: none;
 }

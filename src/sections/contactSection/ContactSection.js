@@ -12,7 +12,7 @@ function ContactSection() {
         <div>
             <div className="background">
                 <div className="texts">
-                    <p className="phone-number">+48 508 804 466</p>
+                    <p className="phone-number">+48 570 072 336</p>
                     <p className="email-address">kontakt@luocars.pl</p>
                 </div>
                 <div className="buttons">

@@ -2,13 +2,16 @@ import '../../../App'
 
 import './QuestionFormPage.css';
 
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import ReCAPTCHA from "react-google-recaptcha";
 
 
 function QuestionFormPage() {
 
     const form = useRef();
+    const [isVeryfied, setIsVeryfied] = useState(false);
+
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -34,7 +37,12 @@ function QuestionFormPage() {
                 <label className='form-label'>Wiadomość</label>
                 <textarea name="message" className='text-input-big' placeholder='Wiadomość' />
 
-                <input type="submit" value="Wyślij" className='submit-button' />
+                <div className='reservation-recaptcha'>
+                    <ReCAPTCHA sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" onChange={() => setIsVeryfied(true)} />
+                    {/* <ReCAPTCHA sitekey="6LdK8N0hAAAAAFG_iWxeYC6Buu2WKM-qS17MkDzW" onChange={() => setIsVeryfied(true)} />, */}
+                </div>
+
+                <input type="submit" value="Wyślij" className={isVeryfied ? 'submit-button' : 'invisible'} />
             </form>
         </div>
     );

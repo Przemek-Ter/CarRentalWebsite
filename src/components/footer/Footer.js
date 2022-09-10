@@ -46,7 +46,7 @@ function Footer() {
                 <div className="footer-contact">
                     <div className="footer-contact-phone">
                         <p className="footer-contact-title" >Telefon:</p>
-                        <p className="footer-contact-content" >+48 508 804 466 / 502 544 563</p>
+                        <p className="footer-contact-content" >+48 570 072 336</p>
                     </div>
                     <div className="footer-contact-email">
                         <p className="footer-contact-title" >Email:</p>
@@ -54,7 +54,7 @@ function Footer() {
                     </div>
                 </div>
 
-                <p>Luo Cars &copy; 2021</p>
+                <p>Luo Cars &copy; {new Date().getFullYear()}</p>
 
             </div>
         </div>

@@ -42,14 +42,14 @@ const CarSectionHome = props => {
                 acceleration={VelarData.acceleration}
                 img={VelarImage}
             />
-            <CarCardSmall
+            {/* <CarCardSmall
                 id={AudiA4Data.id}
                 carName={AudiA4Data.carName}
                 power={AudiA4Data.power}
                 petrol={AudiA4Data.petrol}
                 acceleration={AudiA4Data.acceleration}
                 img={AudiImage}
-            />
+            /> */}
         </div>
     )
 }
