@@ -60,3 +60,34 @@
     filter: brightness(80%);
     border-radius: 0.3rem;
 }
+
+
+@media only screen and (max-width: 800px) {
+    .car-card-small {
+        max-height: 10rem;
+        width: 90%;
+    }
+
+    .car-card-small-info {
+        padding: 0.5rem;
+    }
+
+    .car-card-small-title {
+        font-size: 0.9rem;
+        margin-bottom: 0.2rem;
+
+    }
+
+    .car-card-small-description {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+
+    .car-card-small-galery img {
+        width: 100%;
+        height: 6rem;
+        object-fit: cover;
+        filter: brightness(80%);
+        border-radius: 0.3rem;
+    }
+}

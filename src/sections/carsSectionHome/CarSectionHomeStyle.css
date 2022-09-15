@@ -6,3 +6,10 @@
     padding: 3rem 0;
     box-shadow: 0rem 0.1rem 0.7rem rgb(0, 0, 0);
 }
+
+@media only screen and (max-width: 800px) {
+    .car-section-home {
+        padding: 1.5rem 0;
+    }
+
+}

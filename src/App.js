@@ -1,6 +1,6 @@
 import './App.css';
 //Components
-import Nav from './components/navbar/Nav'
+import NavBar from './components/navbarNew/NavBar';
 import Footer from './components/footer/Footer'
 
 //Pages
@@ -25,7 +25,7 @@ function App() {
     <Router>
       <div className="App">
         {/* Navbar */}
-        <Nav />
+        <NavBar />
         {/* All the pages */}
         <ScrollToTop />
         <Routes>

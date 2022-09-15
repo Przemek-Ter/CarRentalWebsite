@@ -1,31 +1,31 @@
 .animated-text {
-    height: 2.5rem;
-    overflow: hidden;
+  height: 2.5rem;
+  overflow: hidden;
+}
+
+.line {
+  font-size: 2rem;
+}
+
+.line:first-child {
+  animation: anim 6s infinite;
+}
+
+@keyframes anim {
+  0% {
+    margin-top: 0;
   }
-  
-  .line {
-    font-size: 2rem;
+
+  10% {
+    margin-top: -2.5rem;
   }
-  
-  .line:first-child {
-    animation: anim 6s infinite;
+
+  50% {
+    margin-top: -2.5rem;
   }
-  
-  @keyframes anim {
-    0% {
-      margin-top: 0;
-    }
-    
-    10% {
-      margin-top: -2.5rem  ;
-    }
-  
-    50% {
-      margin-top: -2.5rem  ;
-    }
-  
-    60% {
-      margin-top: 0 ;
-  
-    }
+
+  60% {
+    margin-top: 0;
+
   }
+}

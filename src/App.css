@@ -13,8 +13,5 @@
 body {
   background-color: #252323;
   width: 100%;
+  overflow-x: hidden;
 }
-
-
-
-

@@ -17,7 +17,7 @@ function ContactSection() {
                 </div>
                 <div className="buttons">
                     <Link to='/contact-us/question-form' className="link"> {/* Styling for this is in NavStyle.css */}
-                        <Button text="Zadaj nam pytanie" />
+                        <Button text="Zadaj pytanie" />
                     </Link>
                     <Link to='/contact-us/reservation-form' className="link"> {/* Styling for this is in NavStyle.css */}
                         <Button text="Wynajmij Samochód" />
