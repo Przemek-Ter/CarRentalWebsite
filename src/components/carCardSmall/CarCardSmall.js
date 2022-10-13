@@ -26,7 +26,6 @@ const CarCardSmall = props => {
                     <i class="fas fa-stopwatch"></i>
                     <p>{props.acceleration}</p>
                 </div>
-
             </div>
 
             <div className="car-card-small-galery">

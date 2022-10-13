@@ -16,6 +16,7 @@
     font-size: 1.3rem;
     font-weight: bold;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .button-box:hover {
@@ -23,6 +24,10 @@
     transform: scale(1.1);
     background-color: rgb(27, 52, 78);
     box-shadow: 0.2rem 0.5rem 1rem rgb(0, 0, 0);
+}
+
+.link {
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 800px) {

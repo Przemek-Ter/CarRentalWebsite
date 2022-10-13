@@ -8,7 +8,6 @@
     flex-direction: column;
 }
 
-/* Image Section */
 .car-page-image-and-data-section {
     display: flex;
     justify-content: space-around;
@@ -17,6 +16,7 @@
     height: 35rem;
 }
 
+/* Image Section */
 .car-page-image-section {
     display: flex;
     justify-content: center;
@@ -132,4 +132,86 @@
 .car-page-description-addon {
     font-size: 0.8rem;
     filter: brightness(60%);
+}
+
+@media only screen and (max-width: 800px) {
+    .car-page-component-wrapper {
+        width: 95%;
+        max-width: 80rem;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .car-page-image-and-data-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        min-height: 90vh;
+        margin-bottom: 5rem;
+    }
+
+    /* Image Section */
+    .car-page-image-section {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        min-height: 20rem;
+        /* margin: 1rem; */
+        margin-top: -1rem;
+        /* margin: -0.5rem; */
+        overflow: hidden;
+        z-index: -100;
+
+    }
+
+    /* Data Section */
+    .car-page-car-data-section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        margin: 1rem;
+        color: var(--lighText);
+        height: 100%;
+    }
+
+    .car-page-car-data-table {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+    }
+
+    .car-page-car-data-rent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: auto;
+        width: 100%;
+    }
+
+    .car-page-car-data-rent-phone {
+        font-size: 1.5rem;
+        color: var(--lighText);
+        filter: brightness(200%);
+        margin-top: 1rem;
+        margin-bottom: -0.5rem;
+        transition: 0.5s ease-in-out;
+    }
+
+    .car-page-prices-section {
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        /* justify-content: flex-start; */
+        /* justify-content: space-around; */
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 100%;
+        min-height: 35rem;
+    }
 }

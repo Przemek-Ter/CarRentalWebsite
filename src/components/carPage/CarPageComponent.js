@@ -44,8 +44,8 @@ const CarPageComponent = props => {
                         </div>
                     </div>
                     <div className="car-page-car-data-rent">
-                        <p className="car-page-car-data-rent-phone" >+48 508 804 466 / 502 544 563</p>
-                        <Link to='/contact-us/reservation-form' className="link"> {/* Styling for this is in NavStyle.css */}
+                        <p className="car-page-car-data-rent-phone" >+48 881 214 214</p>
+                        <Link to='/contact-us/reservation-form' className="link">
                             <Button text="Wynajmij online" />
                         </Link>
 

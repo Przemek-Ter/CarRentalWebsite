@@ -65,7 +65,8 @@
 @media only screen and (max-width: 800px) {
     .car-card-small {
         max-height: 10rem;
-        width: 90%;
+        width: 95%;
+        margin-top: 0;
     }
 
     .car-card-small-info {
