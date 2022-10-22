@@ -27,3 +27,21 @@
     filter: brightness(150%);
     border-bottom: 1px solid var(--lighText);
 }
+
+@media only screen and (max-width: 800px) {
+    .statute-page-wrapper {
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center; */
+        width: 90%;
+        /* min-height: 81vh;
+        margin: 3rem auto;
+        color: var(--lighText); */
+    }
+
+    .statute-page-wrapper p {
+        /* margin: 0.9rem 0; */
+        font-size: 1.2rem;
+    }
+
+}

@@ -124,3 +124,16 @@
 .invisible-reservation {
     display: none;
 }
+
+@media only screen and (max-width: 800px) {
+    .reservation-form-container {
+        width: 95%;
+        min-height: 91vh;
+        min-width: 95%;
+        margin: auto;
+        padding: 3rem 0;
+        display: flex;
+        align-items: center;
+    }
+
+}

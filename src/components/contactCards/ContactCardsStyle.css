@@ -9,6 +9,8 @@
     padding: 2rem 0 2rem 0;
 }
 
+.contact-card-forms,
+.contact-card-map,
 .contact-card {
     height: 12rem;
     width: 100%;
@@ -17,7 +19,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(61,57,57,0.8);
+    background-color: rgb(61, 57, 57, 0.8);
     border-radius: 0.5rem;
     overflow: hidden;
 }
@@ -27,6 +29,7 @@
     text-decoration: none;
 }
 
+.contact-card-up,
 .contact-card-left {
     width: 50%;
     display: flex;
@@ -34,18 +37,23 @@
     align-items: center;
 }
 
-.contact-card-left i, .contact-card-right i {
+.contact-card-up i,
+.contact-card-left i,
+.contact-card-down i,
+.contact-card-right i {
     margin-right: 1rem;
     color: var(--lighText);
     filter: brightness(150%);
-    
+
 }
 
+.contact-card-up a,
 .contact-card-left a {
     text-decoration: none;
     color: var(--lighText);
 }
 
+.contact-card-down,
 .contact-card-right {
     width: 50%;
     display: flex;
@@ -58,7 +66,7 @@
 }
 
 .contact-card-map-text {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .contact-card-map-text:hover {
@@ -66,15 +74,85 @@
 }
 
 
-.contact-card-left-phone, .contact-card-right-email {
+.contact-card-left-phone,
+.contact-card-right-email {
     font-size: 2rem;
 }
 
+.contact-card-down img,
 .contact-card-right img {
     width: 105%;
     object-fit: cover;
 }
 
-.question-us-button-area, .rent-car-button-area {
+.question-us-button-area,
+.rent-car-button-area {
     width: 100%;
+}
+
+.link-question {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .contact-cards {
+        /* display: flex;
+        flex-direction: column; */
+        width: 95%;
+        /* height: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        padding: 2rem 0 2rem 0; */
+    }
+
+    .contact-card-forms,
+    .contact-card {
+        /* height: 12rem;
+        width: 100%;
+        margin: 1rem;
+        padding: 1rem;
+        display: flex; */
+        flex-direction: column;
+        /* justify-content: space-around;
+        align-items: center;
+        background-color: rgb(61, 57, 57, 0.8);
+        border-radius: 0.5rem;
+        overflow: hidden; */
+    }
+
+    .contact-card-map {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .contact-card-up {
+        width: 100%;
+    }
+
+    .contact-card-down {
+        width: 100%;
+        height: 70%;
+        overflow: hidden;
+        padding: 0 1rem;
+        border-radius: 1rem;
+    }
+
+    .contact-card-left {
+        width: 100%;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+
+    .contact-card-right {
+        width: 100%;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+
+    .contact-card-map-text {
+        font-size: 0.9rem;
+    }
 }

@@ -24,7 +24,7 @@ function AboutPage() {
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Codziennie 8:00 - 16:00</td>
+                                <td>Codziennie 8:00 - 20:00</td>
                                 <td>24h/7</td>
                             </tr>
                         </tbody>
