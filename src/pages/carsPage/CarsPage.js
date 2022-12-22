@@ -4,18 +4,11 @@ import './CarsPageStyle.css'
 //Components
 import CarCardBig from '../../components/carCardBig/CarCardBig'
 
-//Car Images
-import BmwZ4Image from '../../images/bmw-z4.png'
-import VelarImage from '../../images/range-rover-velar.png'
-import MustangImage from '../../images/ford-mustang-gt.jpeg'
-import AudiImage from '../../images/audi-a4.jpeg'
-
 //Data
 import MustangGTData from '../../util/carsInfo/MustangGT.json'
-import AudiA4Data from '../../util/carsInfo/AudiA4.json'
 import BmwZ4Data from '../../util/carsInfo/BmwZ4.json'
 import VelarData from '../../util/carsInfo/Velar.json'
-
+// import AudiA4Data from '../../util/carsInfo/AudiA4.json'
 
 function CarsPage() {
     return (
@@ -29,7 +22,6 @@ function CarsPage() {
                 transmission={MustangGTData.transmission}
                 maxSpeed={MustangGTData.maxSpeed}
                 price={MustangGTData.price}
-                img={MustangImage}
             />
             <CarCardBig
                 id={BmwZ4Data.id}
@@ -40,7 +32,6 @@ function CarsPage() {
                 transmission={BmwZ4Data.transmission}
                 maxSpeed={BmwZ4Data.maxSpeed}
                 price={BmwZ4Data.price}
-                img={BmwZ4Image}
             />
             <CarCardBig
                 id={VelarData.id}
@@ -51,7 +42,6 @@ function CarsPage() {
                 transmission={VelarData.transmission}
                 maxSpeed={VelarData.maxSpeed}
                 price={VelarData.price}
-                img={VelarImage}
             />
             {/* <CarCardBig
                 id={AudiA4Data.id}

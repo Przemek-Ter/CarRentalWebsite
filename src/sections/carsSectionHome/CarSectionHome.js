@@ -3,12 +3,6 @@ import CarCardSmall from '../../components/carCardSmall/CarCardSmall'
 
 import './CarSectionHomeStyle.css'
 
-//Car Images
-import BmwZ4Image from '../../images/bmw-z4.png'
-import VelarImage from '../../images/range-rover-velar.png'
-import MustangImage from '../../images/ford-mustang-gt.jpeg'
-import AudiImage from '../../images/audi-a4.jpeg'
-
 //Data
 import BmwZ4Data from '../../util/carsInfo/BmwZ4.json'
 import VelarData from '../../util/carsInfo/Velar.json'
@@ -24,7 +18,6 @@ const CarSectionHome = props => {
                 power={MustangGTData.power}
                 petrol={MustangGTData.petrol}
                 acceleration={MustangGTData.acceleration}
-                img={MustangImage}
             />
             <CarCardSmall
                 id={BmwZ4Data.id}
@@ -32,7 +25,6 @@ const CarSectionHome = props => {
                 power={BmwZ4Data.power}
                 petrol={BmwZ4Data.petrol}
                 acceleration={BmwZ4Data.acceleration}
-                img={BmwZ4Image}
             />
             <CarCardSmall
                 id={VelarData.id}
@@ -40,7 +32,6 @@ const CarSectionHome = props => {
                 power={VelarData.power}
                 petrol={VelarData.petrol}
                 acceleration={VelarData.acceleration}
-                img={VelarImage}
             />
             {/* <CarCardSmall
                 id={AudiA4Data.id}

@@ -50,43 +50,65 @@ const BmwZ4PhotoList = [
 ]
 const VelarPhotoList = [
     {
-        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-1.jpeg'}`,
+        image: `${process.env.PUBLIC_URL + '/images/Range-Rover-Velar-1.jpg'}`,
     },
     {
-        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-2.jpeg'}`,
+        image: `${process.env.PUBLIC_URL + '/images/Range-Rover-Velar-2.jpg'}`,
     },
     {
-        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-3.jpeg'}`,
+        image: `${process.env.PUBLIC_URL + '/images/Range-Rover-Velar-3.jpg'}`,
     },
     {
-        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-4.jpeg'}`,
+        image: `${process.env.PUBLIC_URL + '/images/Range-Rover-Velar-4.jpg'}`,
     },
     {
-        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-5.jpeg'}`,
+        image: `${process.env.PUBLIC_URL + '/images/Range-Rover-Velar-5.jpg'}`,
     },
     {
-        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-6.jpeg'}`,
+        image: `${process.env.PUBLIC_URL + '/images/Range-Rover-Velar-6.jpg'}`,
+    },
+    {
+        image: `${process.env.PUBLIC_URL + '/images/Range-Rover-Velar-7.jpg'}`,
+    },
+    {
+        image: `${process.env.PUBLIC_URL + '/images/Range-Rover-Velar-8.jpg'}`,
+    },
+    {
+        image: `${process.env.PUBLIC_URL + '/images/Range-Rover-Velar-9.jpg'}`,
+    },
+    {
+        image: `${process.env.PUBLIC_URL + '/images/Range-Rover-Velar-10.jpg'}`,
+    },
+    {
+        image: `${process.env.PUBLIC_URL + '/images/Range-Rover-Velar-11.jpg'}`,
+    },
+    {
+        image: `${process.env.PUBLIC_URL + '/images/Range-Rover-Velar-12.jpg'}`,
     },
 ]
 const MustangPhotoList = [
     {
-        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-1.jpeg'}`,
+        image: `${process.env.PUBLIC_URL + '/images/Ford-Mustang-1.jpg'}`,
     },
     {
-        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-2.jpeg'}`,
+        image: `${process.env.PUBLIC_URL + '/images/Ford-Mustang-2.jpg'}`,
     },
     {
-        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-3.jpeg'}`,
+        image: `${process.env.PUBLIC_URL + '/images/Ford-Mustang-3.jpg'}`,
     },
     {
-        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-4.jpeg'}`,
+        image: `${process.env.PUBLIC_URL + '/images/Ford-Mustang-4.jpg'}`,
     },
     {
-        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-5.jpeg'}`,
+        image: `${process.env.PUBLIC_URL + '/images/Ford-Mustang-5.jpg'}`,
     },
     {
-        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-6.jpeg'}`,
+        image: `${process.env.PUBLIC_URL + '/images/Ford-Mustang-6.jpg'}`,
     },
+    {
+        image: `${process.env.PUBLIC_URL + '/images/Ford-Mustang-7.jpg'}`,
+    },
+
 ]
 
 //Those Photos should be in this resolution 960 × 720

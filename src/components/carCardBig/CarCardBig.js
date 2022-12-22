@@ -9,6 +9,16 @@ import { Link } from 'react-router-dom';
 import Button from '../button/Button'
 
 const CarCardBig = props => {
+
+    let imgSource;
+    if (props.id === "bmw-z4") {
+        imgSource = `${process.env.PUBLIC_URL + '/images/BMW-Z4-1.jpg'}`;
+    } else if (props.id === "range-rover-velar") {
+        imgSource = `${process.env.PUBLIC_URL + '/images/Range-Rover-Velar-1.jpg'}`;
+    } else if (props.id === "mustang-gt") {
+        imgSource = `${process.env.PUBLIC_URL + '/images/Ford-Mustang-1.jpg'}`;
+    }
+
     return (
         <div className="car-card-big">
             <div className="car-card-big-info">
@@ -51,7 +61,7 @@ const CarCardBig = props => {
             </div>
 
             <div className="car-card-big-galery">
-                <img src={props.img} alt="" />
+                <img src={imgSource} alt="" />
             </div>
         </div >
     )
