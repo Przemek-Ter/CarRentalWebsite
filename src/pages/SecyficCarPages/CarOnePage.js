@@ -11,7 +11,7 @@ import MustangGTImage from '../../images/ford-mustang-gt.jpeg'
 import MustangGTData from '../../util/carsInfo/MustangGT.json'
 
 
-// MERCEDES AMG A45
+// FORD MUSTANG GT
 function CarOnePage() {
     return (
         <div>

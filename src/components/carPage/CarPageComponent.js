@@ -11,6 +11,7 @@ import { Link } from 'react-router-dom';
 
 //Components
 import Slider from '../slider/Slider'
+// import SliderCopy from '../slider/Slider copy'
 import PriceCage from '../priceCage/PriceCage'
 import Button from '../button/Button'
 
@@ -20,6 +21,7 @@ const CarPageComponent = props => {
             <div className="car-page-image-and-data-section">
                 <div className="car-page-image-section">
                     <Slider id={props.id} />
+                    {/* <SliderCopy></SliderCopy> */}
                 </div>
                 <div className="car-page-car-data-section">
                     <h1 className="car-page-car-data-name" >{props.carName}</h1>
@@ -67,7 +69,7 @@ const CarPageComponent = props => {
                 <p className="car-page-description-title">{props.descriptionTitle}</p>
                 <p className="car-page-description-text">{props.descriptionText1}</p>
                 <p className="car-page-description-text">{props.descriptionText2}</p>
-                {/* Addons */}
+
                 <p className="car-page-description-addon" >* Wynajem na mniej niż 3 dni liczony jest w dni Pon - Pt</p>
                 <p className="car-page-description-addon" >* Weekend to czas od Pt 18:00 do Nd 18:00</p>
                 <p className="car-page-description-addon" >* Wynajem na więcej niż jeden miesiąc - stawka indywidualna</p>

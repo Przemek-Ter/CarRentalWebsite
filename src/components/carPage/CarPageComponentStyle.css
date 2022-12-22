@@ -20,10 +20,11 @@
 .car-page-image-section {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    width: 50%;
+    align-items: center;
+    width: 60%;
+    height: 90%;
     margin: 1rem;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 /* Data Section */
@@ -31,7 +32,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 50%;
+    width: 30%;
     margin: 1rem;
     color: var(--lighText);
 }
@@ -165,7 +166,7 @@
         margin-top: -1rem;
         /* margin: -0.5rem; */
         overflow: hidden;
-        z-index: -100;
+        /* z-index: -100; */
 
     }
 

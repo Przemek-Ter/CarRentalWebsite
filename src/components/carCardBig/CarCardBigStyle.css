@@ -123,6 +123,14 @@
         align-items: center;
     }
 
+    .car-card-big-button-space {
+        display: flex;
+        justify-content: center;
+    }
+
+    .link {
+        z-index: 10;
+    }
 
     .car-card-big-galery {
         width: 100%;
