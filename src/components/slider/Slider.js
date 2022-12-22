@@ -1,28 +1,6 @@
 import { Carousel } from 'react-carousel-minimal'; //React Carousel Minimal
 
 //Photo Lists
-const AmgA45PhotoList = [
-    {
-        image: `${process.env.PUBLIC_URL + '/images/amg-a45-1.jpeg'}`,
-        caption: ""
-    },
-    {
-        image: `${process.env.PUBLIC_URL + '/images/amg-a45-2.jpeg'}`,
-        caption: ""
-    },
-    {
-        image: `${process.env.PUBLIC_URL + '/images/amg-a45-3.jpeg'}`,
-        caption: ""
-    },
-    {
-        image: `${process.env.PUBLIC_URL + '/images/amg-a45-4.jpeg'}`,
-        caption: ""
-    },
-    {
-        image: `${process.env.PUBLIC_URL + '/images/amg-a45-5.jpeg'}`,
-        caption: ""
-    },
-]
 const BmwZ4PhotoList = [
     {
         image: `${process.env.PUBLIC_URL + '/images/bmw-z4-1.jpeg'}`,
@@ -84,44 +62,19 @@ const MustangPhotoList = [
         image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-6.jpeg'}`,
     },
 ]
-//Not Correct
-const AudiPhotoList = [
-    {
-        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-1.jpeg'}`,
-    },
-    {
-        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-2.jpeg'}`,
-    },
-    {
-        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-3.jpeg'}`,
-    },
-    {
-        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-4.jpeg'}`,
-    },
-    {
-        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-5.jpeg'}`,
-    },
-    {
-        image: `${process.env.PUBLIC_URL + '/images/range-rover-velar-6.jpeg'}`,
-    },
-]
 
-//Those Photos should be in this resolution 1079 × 720
+//Those Photos should be in this resolution 960 × 720
 
 const Slider = props => {
 
     //Choosing whih fotos need to be shown
     let slides = []
-    if (props.id === "amg-a45") {
-        slides = AmgA45PhotoList.slice();
-    } else if (props.id === "bmw-z4") {
+    if (props.id === "bmw-z4") {
         slides = BmwZ4PhotoList.slice();
     } else if (props.id === "range-rover-velar") {
         slides = VelarPhotoList.slice();
     } else if (props.id === "mustang-gt") {
         slides = MustangPhotoList.slice();
-    } else if (props.id === "audi-a4") {
-        slides = AudiPhotoList.slice();
     }
 
     const captionStyle = {

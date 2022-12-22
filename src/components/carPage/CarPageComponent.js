@@ -4,6 +4,8 @@ import React from 'react'
 //Style file
 import '../carPage/CarPageComponentStyle.css'
 
+import globalVariables from '../../globalVariables';
+
 //For navigation
 import { Link } from 'react-router-dom';
 
@@ -44,7 +46,7 @@ const CarPageComponent = props => {
                         </div>
                     </div>
                     <div className="car-page-car-data-rent">
-                        <p className="car-page-car-data-rent-phone" >+48 881 214 214</p>
+                        <p className="car-page-car-data-rent-phone" >{globalVariables.phone}</p>
                         <Link to='/contact-us/reservation-form' className="link">
                             <Button text="Wynajmij online" />
                         </Link>

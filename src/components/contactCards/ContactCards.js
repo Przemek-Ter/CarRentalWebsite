@@ -1,6 +1,8 @@
 import '../../App'
 import './ContactCardsStyle.css'
 
+import globalVariables from '../../globalVariables';
+
 //Components
 import Button from '../../components/button/Button';
 
@@ -20,13 +22,13 @@ function ContactCards() {
                     <div className="contact-card-left-phone">
                         <i class="fas fa-mobile-alt"></i>
                     </div>
-                    <p className="contact-card-text">+48 570 072 336</p>
+                    <p className="contact-card-text">{globalVariables.phone}</p>
                 </div>
                 <div className="contact-card-right">
                     <div className="contact-card-right-email">
                         <i class="fas fa-envelope"></i>
                     </div>
-                    <p className="contact-card-text">kontakt@luocars.pl</p>
+                    <p className="contact-card-text">{globalVariables.email}</p>
                 </div>
             </div>
 

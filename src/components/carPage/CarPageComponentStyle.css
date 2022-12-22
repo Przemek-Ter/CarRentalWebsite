@@ -20,6 +20,7 @@
 .car-page-image-section {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     width: 50%;
     margin: 1rem;
     overflow: hidden;

@@ -2,6 +2,8 @@ import React from 'react'
 
 import './FooterStyle.css'
 
+import globalVariables from '../../globalVariables';
+
 //For navigation purpose (need to install first)
 import { Link } from 'react-router-dom';
 
@@ -46,11 +48,11 @@ function Footer() {
                 <div className="footer-contact">
                     <div className="footer-contact-phone">
                         <p className="footer-contact-title" >Telefon:</p>
-                        <p className="footer-contact-content" >+48 570 072 336</p>
+                        <p className="footer-contact-content" >{globalVariables.phone}</p>
                     </div>
                     <div className="footer-contact-email">
                         <p className="footer-contact-title" >Email:</p>
-                        <p className="footer-contact-content" >kontakt@luocars.pl</p>
+                        <p className="footer-contact-content" >{globalVariables.email}</p>
                     </div>
                 </div>
 
