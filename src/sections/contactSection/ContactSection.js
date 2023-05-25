@@ -14,15 +14,15 @@ function ContactSection() {
         <div>
             <div className="background">
                 <div className="texts">
-                    <p className="phone-number">{globalVariables.phone}"</p>
-                    <p className="email-address">{globalVariables.email}</p>
+                    <p className="phone-number"><a href={`tel:${globalVariables.phone}`}>{globalVariables.phone}</a></p>
+                    <p className="email-address"><a href={`mailto:${globalVariables.email}`}>{globalVariables.email}</a></p>
                 </div>
                 <div className="buttons">
                     <Link to='/contact-us/question-form' className="link"> {/* Styling for this is in NavStyle.css */}
                         <Button text="Zadaj pytanie" />
                     </Link>
                     <Link to='/contact-us/reservation-form' className="link"> {/* Styling for this is in NavStyle.css */}
-                        <Button text="Wynajmij Samochód" />
+                        <Button text="Zapytaj o dostępność" />
                     </Link>
                 </div>
             </div>

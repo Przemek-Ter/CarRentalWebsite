@@ -48,9 +48,9 @@ const CarPageComponent = props => {
                         </div>
                     </div>
                     <div className="car-page-car-data-rent">
-                        <p className="car-page-car-data-rent-phone" >{globalVariables.phone}</p>
+                        <p className="car-page-car-data-rent-phone" ><a href={`tel:${globalVariables.phone}`}>{globalVariables.phone}</a></p>
                         <Link to='/contact-us/reservation-form' className="link">
-                            <Button text="Wynajmij online" />
+                            <Button text="Zapytaj o dostępność" />
                         </Link>
 
                     </div>

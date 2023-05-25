@@ -24,6 +24,11 @@
     overflow: hidden;
 }
 
+.contact-card a {
+    text-decoration: none;
+    color: var(--lighText);
+}
+
 .contact-card-text {
     color: var(--lighText);
     text-decoration: none;

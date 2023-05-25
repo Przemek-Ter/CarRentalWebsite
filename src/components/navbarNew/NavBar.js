@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 // import Logo from '../../images/Luo_Logo_Icon_White.png'
 // import Logo from '../../images/Luo_Logo_Name_White.png'
-import Logo from '../../images/Luo_Logo_All_White.png'
+import Logo from '../../images/Luo_Logo_Name_White.png'
 
 
 

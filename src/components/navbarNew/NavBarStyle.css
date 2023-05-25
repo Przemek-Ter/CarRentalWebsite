@@ -11,13 +11,11 @@ nav {
 
 .navBar-logo {
   /* In case of Name use below */
-  /* height: 2.5rem;*/
+  height: 1.8rem;
   /* In case of Icon use below */
   /* height: 4.5rem; */
   /* In case of All use below */
-  height: 3rem;
-
-
+  /* height: 3rem; */
 }
 
 .navBar-links {
@@ -97,7 +95,7 @@ nav {
     padding-right: 1rem;
     list-style: none;
     transition: 0.2s ease-in-out;
-    z-index: 100;
+    z-index: 1;
   }
 
   .navBar-link {
@@ -114,6 +112,5 @@ nav {
   .navBar-mobile i {
     font-size: 2rem;
   }
-
 
 }

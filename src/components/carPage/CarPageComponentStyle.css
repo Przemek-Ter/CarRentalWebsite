@@ -99,6 +99,11 @@
     transform: scale(1.4);
 }
 
+.car-page-car-data-rent-phone a {
+    text-decoration: none;
+    color: var(--lighText);
+}
+
 /* Prices Section */
 .car-page-prices-section {
     display: flex;
@@ -152,7 +157,7 @@
         justify-content: flex-start;
         align-items: center;
         width: 100%;
-        min-height: 90vh;
+        min-height: 45rem;
         margin-bottom: 5rem;
     }
 
@@ -179,7 +184,7 @@
         width: 100%;
         margin: 1rem;
         color: var(--lighText);
-        height: 100%;
+        height: auto;
     }
 
     .car-page-car-data-table {
