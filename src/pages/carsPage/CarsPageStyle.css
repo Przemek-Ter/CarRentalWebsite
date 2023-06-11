@@ -6,6 +6,11 @@
     padding: 3rem 0;
 }
 
+.cars-page-wrapper .link {
+    width: 70%;
+    margin: 1.5rem 0;
+}
+
 @media only screen and (max-width: 800px) {
     .cars-page-wrapper {
         display: flex;
@@ -15,6 +20,11 @@
         padding: 1rem 0;
         margin: auto;
         width: 95%;
+    }
+
+    .cars-page-wrapper .link {
+        width: 95%;
+        margin: 1.5rem 0;
     }
 
 }

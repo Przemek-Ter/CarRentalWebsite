@@ -14,21 +14,7 @@ function AboutPage() {
                     <p>Jetseśmy profesjonalną wypożyczalnią samochodów sportowych i luksusowych.Działamy na terenie Trójmiasta i okolic. Jednak na życzenie dostarczymy pojazd w pozostałych częściach kraju. Czym rónimy się od konkuręcji? Indywidualnym podejściem do każdego klienta, jakością obsługi jak i dospępem do ciekawych samochodów. Obsługujemy klientów indywidualnych jak i firmy. Zapewniamy bezpieczeństwo i jasne zasady wynajmu.</p>
                 </div>
                 <div className="about-page-availability">
-                    <p className="about-page-availability-table-title">Jesteśmy otwarci</p>
-                    <table className="about-page-availability-table" >
-                        <thead>
-                            <tr>
-                                <th>Dla nowych klientów</th>
-                                <th>W trakcie wynajmu</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Codziennie 8:00 - 20:00</td>
-                                <td>24h/7</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <p className="about-page-availability-table-title">Jesteśmy otwarci codziennie 8:00 - 20:00</p>
                 </div>
                 {/* <div className="about-page-map-space">
                     <div className="about-page-map-space-icon">
