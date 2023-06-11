@@ -13,7 +13,7 @@ function HeroSection() {
     return (
         <div className="hero-section">
             <div className="hero-background">
-                <video autoPlay loop muted>
+                <video autoPlay loop muted playsInline>
                     <source src={AmgA45Vid} type='video/mp4' />
                 </video>
             </div>
