@@ -31,9 +31,9 @@ class NavBar extends Component {
                     <Link to='/cars' className="navBar-link" onClick={this.handleClick}>
                         <li>Samochody / Ceny</li>
                     </Link>
-                    <Link to='/about' className="navBar-link" onClick={this.handleClick}>
+                    {/* <Link to='/about' className="navBar-link" onClick={this.handleClick}>
                         <li>O Nas</li>
-                    </Link>
+                    </Link> */}
                     <Link to='/statute' className="navBar-link" onClick={this.handleClick}>
                         <li>Regulamin</li>
                     </Link>

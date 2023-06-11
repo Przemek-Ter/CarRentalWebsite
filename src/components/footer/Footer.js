@@ -33,9 +33,9 @@ function Footer() {
                         <Link to='/cars' className="footer-link">
                             <li>Samochody / Ceny</li>
                         </Link>
-                        <Link to='/about' className="footer-link">
+                        {/* <Link to='/about' className="footer-link">
                             <li>O Nas</li>
-                        </Link>
+                        </Link> */}
                         <Link to='/statute' className="footer-link">
                             <li>Regulamin</li>
                         </Link>
