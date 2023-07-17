@@ -9,6 +9,9 @@ import AnimatedText from '../../components/animatedText/AnimatedText';
 //Video for the background
 import AmgA45Vid from "../../videos/amg-a45.mp4"
 
+//Photos
+import LuoLogoImg from '../../images/Luo_Logo_Name_White.png'
+
 function HeroSection() {
     return (
         <div className="hero-section">
@@ -18,7 +21,7 @@ function HeroSection() {
                 </video>
             </div>
             <div className="hero-teksts">
-                <h1>Luo Cars</h1>
+                <img src={LuoLogoImg}></img>
                 <div className="description">
                     <p>Wyporzyczalnia samochodów </p>
                     <AnimatedText />

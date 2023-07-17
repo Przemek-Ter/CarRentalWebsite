@@ -12,7 +12,7 @@ function ContactUsPage() {
     return (
         <div id="contact-us-section" >
             <div className="contact-us-background">
-                <video autoPlay loop muted>
+                <video autoPlay loop muted playsInline>
                     <source src={AmgA45Vid} type='video/mp4' />
                 </video>
             </div>
